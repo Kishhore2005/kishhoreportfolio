@@ -22,9 +22,9 @@ const Navbar = () => {
         <a href="#service" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Skills</a>
         <a href="#project" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Projects</a>
         <a href="#contact" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Contacts</a>
-        <button className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-full px-6 py-2 hover:scale-110">
+        <a href="mailto:savithirysenthil@gmail.com" className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-full  cursor-pointer px-6 py-2 hover:scale-110">
           connect
-        </button>
+        </a>
       </div>
 
       {/* Hamburger Icon - shows on mobile */}

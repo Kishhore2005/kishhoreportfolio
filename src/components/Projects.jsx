@@ -49,7 +49,7 @@ const Projects = () => {
     <motion.div 
      initial={{ opacity: 0, scale:0 }}
       whileInView={{ opacity: 1, scale:1 }}
-      transition={{ duration: 1}}
+      transition={{ duration: 0.5}}
       className="bg-black text-white py-20" id="project">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>

@@ -1,5 +1,5 @@
 import React from 'react'
-import heroimag from '../assets/heroimag.jpg'
+import aboutimag from '../assets/aboutt.png'
 import {motion} from 'framer-motion'
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
       <div className='container mx-auto px-8 md:px-16 lg:px-24'>
         <h2 className='text-4xl text-center font-bold mb-12'>ABOUT ME</h2>
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
-        <img src={heroimag} alt=" " className='w-72 h-80 rouned object-cover mb-8 md:mb-0'/>
+        <img src={aboutimag} alt=" " className='w-72 h-80 rouned object-cover mb-8 md:mb-0'/>
         <div className='flex-1'>
         <p className='text-lg mb-8'>
           I’m Kishhore S, a passionate B.Tech Information Technology student currently in my second year at Puducherry Technological University. I have a strong interest in Full Stack Web Development, and I’m skilled in building modern, responsive websites. Alongside web development, I actively explore AI tools, Generative AI, and Data Science, constantly learning and experimenting with real-world applications. I enjoy turning ideas into impactful digital solutions and continuously strive to grow as a versatile tech professional.
