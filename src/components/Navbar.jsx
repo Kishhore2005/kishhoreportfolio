@@ -42,14 +42,14 @@ const Navbar = () => {
       {/* Mobile Menu - shows only when menuOpen is true */}
       {menuOpen && (
         <div className="absolute top-full right-0 mt-2 bg-black rounded-xl shadow-lg p-5 flex flex-col space-y-3 md:hidden w-[70%] max-w-[250px] z-10">
-          <a href="#" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Home</a>
-          <a href="#" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">About Me</a>
-          <a href="#" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Skills</a>
-          <a href="#" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Projects</a>
-          <a href="#" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Contacts</a>
-          <button className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-full px-6 py-2 hover:scale-110">
-            connect
-          </button>
+          <a href="#Hero" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Home</a>
+          <a href="#aboutme" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">About Me</a>
+          <a href="#service" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Skills</a>
+          <a href="#project" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Projects</a>
+          <a href="#contact" className="hover:bg-slate-400 rounded-full px-5 py-2 cursor-pointer">Contacts</a>
+          <a href="mailto:savithirysenthil@gmail.com" className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-full  cursor-pointer px-6 py-2 hover:scale-110">
+          connect
+        </a>
         </div>
       )}
     </div>
