@@ -26,21 +26,21 @@ const projects = [
     name: "MULTI MAZE GAME IN C",
     technologies: "BRANCH AND BOUND  TECHNIQUE DAA",
     image: cimag,
-    github: "",
+    github: "https://github.com/Kishhore2005/multimaze",
   },
   {
     id: 4,
     name: "QR CODE GENERATOR",
     technologies: "REACT JS ,NPM NODE",
     image: qrcode,
-    github: "",
+    github: "https://github.com/Kishhore2005/qr-code-generator",
   },
    {
     id: 5,
     name: "WEATHER WEBSITE",
     technologies: "REACT JS ,NPM NODE,WEATHER API",
     image: weather,
-    github: "",
+    github: "https://github.com/Kishhore2005/weather-app",
   },
 ];
 
