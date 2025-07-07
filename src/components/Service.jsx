@@ -26,7 +26,7 @@ const services = [
   {
     id: 5,
     title: "data analyst",
-    description: "analysing data and making predictions using panda python and genai tools like chatgpt",
+    description: "analysing data and making predictions using panda python and genai tools like chatgpt and dashboard creations using powerbi",
   },
 ];
 const Service = () => {
